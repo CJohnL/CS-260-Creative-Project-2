@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 60px;
+}
+
+button{
+  margin-bottom: 1em;
+}
+
+.backimage{
+  background-attachment: fixed;
+  background: url('books.jpg') no-repeat center center fixed;
+}
+
+.center{
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h1{
+  padding: 1em;
+  color: white;
+  text-decoration: underline;
+}
+
+input{
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.content{
+  background: rgba(255, 255, 255, 0.85);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: gray solid 2px;
+  min-width: 300px;
+}
+
+#result{
+  padding-left: 2em;
+}
+
+legend{
+  padding-bottom: 1em;
+}
+
+footer {
+  padding: 0.4em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: white;
+  background-color: rgb(0, 15, 29);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot {
+  color: rgb(30, 209, 191);
+  font-weight: bold;
+  text-decoration: none;
+}
